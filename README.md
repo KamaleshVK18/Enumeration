@@ -61,7 +61,8 @@ Open terminal and try execute some kali linux commands
 
 # Output:
 SITE:
-<img width="1857" height="996" alt="image" src="https://github.com/user-attachments/assets/071b3786-c7b3-4010-9688-bd28d17d7dd2" />
+<img width="951" height="1016" alt="image" src="https://github.com/user-attachments/assets/c316f8cc-8859-4a46-8815-998b64d58398" />
+
 
 INURL:
 <img width="1837" height="991" alt="image" src="https://github.com/user-attachments/assets/78fb537a-2f19-406d-8d39-8ce94a554465" />
@@ -70,20 +71,19 @@ INTITLE:
 <img width="1824" height="982" alt="image" src="https://github.com/user-attachments/assets/1107caba-9a07-4ecd-91d4-420746832de6" />
 
 FILETYPE.PDF
-<img width="1832" height="997" alt="image" src="https://github.com/user-attachments/assets/dc5c34ba-e9ce-470c-b906-074c19859cd2" />
+<img width="955" height="970" alt="image" src="https://github.com/user-attachments/assets/5234a0e2-e0fb-408c-a095-eab0a197d6d5" />
+
 
 INTEXT:
-<img width="1837" height="1004" alt="image" src="https://github.com/user-attachments/assets/e61d0080-ab94-4644-b8ac-338b3d140fd3" />
+<img width="956" height="977" alt="image" src="https://github.com/user-attachments/assets/d3a5cea9-6789-44cf-b77b-88271ebf08c4" />
+
 
 LINK:
-<img width="1838" height="984" alt="image" src="https://github.com/user-attachments/assets/ced225f3-89f4-4748-a0d4-6b1cb1a8fcb5" />
+<img width="949" height="894" alt="image" src="https://github.com/user-attachments/assets/8a783ee6-8d60-47ad-b854-7ed966f9a14c" />
 
 CACHE:
-<img width="1837" height="997" alt="image" src="https://github.com/user-attachments/assets/1c665cf2-33ef-443c-a99e-b4d9e37b159e" />
+<img width="957" height="1014" alt="image" src="https://github.com/user-attachments/assets/f1f8760a-50b3-4d38-9c94-9ca77eabefd4" />
 
-
-# DNS Enumeration
-<img width="982" height="302" alt="image" src="https://github.com/user-attachments/assets/bb6f9e63-23f1-4758-8ff5-7ef2dbe62bc6" />
 
 
 ## DNS Recon
@@ -113,19 +113,21 @@ CACHE:
 ## OUTPUT:
 
 ### NSLOOKUP:
-<img width="956" height="286" alt="image" src="https://github.com/user-attachments/assets/330dffab-57ac-4d4d-8ba2-5784557129c9" />
+<img width="692" height="542" alt="image" src="https://github.com/user-attachments/assets/db297880-6a49-450e-b081-a9e767205aa6" />
+
 
 
 ### DIG:
-<img width="1248" height="379" alt="image" src="https://github.com/user-attachments/assets/8ca2717e-e15e-488b-9b8d-13e0201be0ef" />
+<img width="702" height="453" alt="image" src="https://github.com/user-attachments/assets/61691d25-48c7-4faf-9e9c-dec22eebc781" />
 
 
 ### HOST:
-<img width="921" height="138" alt="image" src="https://github.com/user-attachments/assets/8be94f31-dc0a-470e-8a88-5f1b52139c27" />
+<img width="712" height="354" alt="image" src="https://github.com/user-attachments/assets/5e3c197f-91be-4da6-a166-54d1f6216316" />
 
 
 ### DNSENUM:
-<img width="982" height="302" alt="image" src="https://github.com/user-attachments/assets/abb45f37-ef2f-4d95-9347-58b7544b408e" />
+<img width="712" height="214" alt="image" src="https://github.com/user-attachments/assets/fa25bb4b-7e34-44b2-9c2d-290c0d7c7ea7" />
+
 
 
 
@@ -134,7 +136,7 @@ CACHE:
 
 
 ### theHarvester:
-<img width="757" height="776" alt="Screenshot 2025-08-30 155420" src="https://github.com/user-attachments/assets/16502832-f808-4026-a242-8447c40bf00e" />
+<img width="887" height="818" alt="image" src="https://github.com/user-attachments/assets/e1f7f5b3-ee0d-4711-9b5e-b9826d645e27" />
 
 
 ## Architecture Diagram 
@@ -175,8 +177,8 @@ dnsenum example.com
 ```
 
 ## Output:
+<img width="712" height="214" alt="image" src="https://github.com/user-attachments/assets/fa25bb4b-7e34-44b2-9c2d-290c0d7c7ea7" />
 
-<img width="982" height="302" alt="image" src="https://github.com/user-attachments/assets/d4a52043-a246-4c64-8964-2ef1cc1cb4e8" />
 
 
 ## smtp-user-enum
@@ -189,8 +191,7 @@ smtp-user-enum -M VRFY -U users.txt -t <target-ip>
 ```
   
  ## Output
-
-  <img width="849" height="858" alt="Screenshot 2025-08-30 155802" src="https://github.com/user-attachments/assets/649f1318-2322-443b-b650-fe078649d01e" />
+<img width="938" height="525" alt="image" src="https://github.com/user-attachments/assets/965af7ce-4f58-444f-b19d-b892306a4e7b" />
 
 
 
@@ -205,9 +206,7 @@ nmap -p 25 --script smtp-enum-users.nse <target-ip>
 ```
 ## OUTPUT:
 
-<img width="806" height="191" alt="Screenshot 2025-08-30 155841" src="https://github.com/user-attachments/assets/111bebe5-3fbd-4133-ac7e-4baab1b77f4f" />
-
-
+<img width="904" height="174" alt="image" src="https://github.com/user-attachments/assets/4f28211b-3a1a-4ee5-8c06-246fbbbd45b9" />
 
 
 ## RESULT:
