@@ -84,6 +84,40 @@ LINK:
 CACHE:
 <img width="957" height="1014" alt="image" src="https://github.com/user-attachments/assets/f1f8760a-50b3-4d38-9c94-9ca77eabefd4" />
 
+---
+
+## Explanation of Google Dork Operators
+
+### `site:example.com`
+**Explanation:** Restricts search results to a specific domain.  
+**Purpose:** Helps find all indexed pages and possible exposed content.
+
+### `inurl:admin`
+**Explanation:** Searches URLs containing specific keywords.  
+**Purpose:** Useful for finding admin panels or login pages.
+
+### `intitle:"index of"`
+**Explanation:** Searches for keywords in page titles.  
+**Purpose:** Helps identify open directories.
+
+### `filetype:pdf`
+**Explanation:** Filters results by file type.  
+**Purpose:** Used to find downloadable documents.
+
+### `intext:"confidential"`
+**Explanation:** Searches for keywords inside page content.  
+**Purpose:** Helps detect sensitive information.
+
+### `link:example.com`
+**Explanation:** Shows pages linking to a domain.  
+**Purpose:** Useful for backlink analysis.
+
+### `cache:example.com`
+**Explanation:** Displays cached version of a page.  
+**Purpose:** Helps view removed or unavailable content.
+
+
+---
 
 
 ## DNS Recon
@@ -189,7 +223,32 @@ dnsenum example.com
 ```
 smtp-user-enum -M VRFY -U users.txt -t <target-ip>
 ```
-  
+
+## Explanation of DNS Tools
+
+### `nslookup example.com`
+**Explanation:** Queries DNS to get IP address info.  
+**Purpose:** Basic DNS lookup and troubleshooting.
+
+### `dig example.com any`
+**Explanation:** Provides detailed DNS records.  
+**Purpose:** Used for advanced DNS analysis.
+
+### `host example.com`
+**Explanation:** Resolves domain to IP quickly.  
+**Purpose:** Simple DNS checking tool.
+
+### `dnsenum example.com`
+**Explanation:** Automates DNS enumeration.  
+**Purpose:** Finds subdomains and performs zone transfers.
+
+### `fierce -dns example.com`
+**Explanation:** Scans DNS for hidden subdomains.  
+**Purpose:** Helps discover network infrastructure.
+
+### `theHarvester -d example.com -b google`
+**Explanation:** Collects emails and subdomains from public sources.  
+**Purpose:** Used for OSINT reconnaissance.
  ## Output
 <img width="938" height="525" alt="image" src="https://github.com/user-attachments/assets/965af7ce-4f58-444f-b19d-b892306a4e7b" />
 
@@ -204,6 +263,20 @@ smtp-user-enum -M VRFY -U users.txt -t <target-ip>
 ```
 nmap -p 25 --script smtp-enum-users.nse <target-ip>
 ```
+
+##  SMTP Enumeration Commands Explanation
+
+### `dnsenum example.com`
+**Explanation:** Enumerates DNS records and subdomains.  
+**Purpose:** Helps understand domain structure.
+
+### `smtp-user-enum -M VRFY -U users.txt -t <target-ip>`
+**Explanation:** Uses SMTP commands to verify users.  
+**Purpose:** Identifies valid email accounts.
+
+### `nmap -p 25 --script smtp-enum-users.nse <target-ip>`
+**Explanation:** Uses Nmap script to enumerate SMTP users.  
+**Purpose:** Automates email account discovery.
 ## OUTPUT:
 
 <img width="904" height="174" alt="image" src="https://github.com/user-attachments/assets/4f28211b-3a1a-4ee5-8c06-246fbbbd45b9" />
