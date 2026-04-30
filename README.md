@@ -68,10 +68,11 @@ INURL:
 <img width="1837" height="991" alt="image" src="https://github.com/user-attachments/assets/78fb537a-2f19-406d-8d39-8ce94a554465" />
 
 INTITLE:
-<img width="1824" height="982" alt="image" src="https://github.com/user-attachments/assets/1107caba-9a07-4ecd-91d4-420746832de6" />
+<img width="953" height="671" alt="image" src="https://github.com/user-attachments/assets/c354fba4-35ed-4539-a1eb-486833b5877b" />
 
 FILETYPE.PDF
-<img width="955" height="970" alt="image" src="https://github.com/user-attachments/assets/5234a0e2-e0fb-408c-a095-eab0a197d6d5" />
+<img width="949" height="998" alt="image" src="https://github.com/user-attachments/assets/fb79d3d5-146f-4ec9-aec1-e1980d0fcc9f" />
+
 
 
 INTEXT:
